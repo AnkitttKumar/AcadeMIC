@@ -1,0 +1,34 @@
+.free_course_col {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.free_course_col:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.free__course__img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.free__btn {
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  z-index: 999999;
+  padding: 5px 15px;
+  font-size: 0.9rem;
+}
+
+.free__course__img img {
+  border-radius: 10px;
+}
+
+.free__course__details {
+  font-weight: 600;
+  line-height: 2rem;
+}
